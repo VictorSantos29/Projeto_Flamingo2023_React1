@@ -1,0 +1,78 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: "orbitron",sans-serif;
+    
+    
+    }
+    .contaner{
+        display: flex;
+        flex-direction: column;
+         align-items: center;
+         gap:3rem;
+         padding-top: 5rem;
+         background-color: rgb(255, 255, 255);
+         height:100vh;
+    }
+    .contaner h1{
+    
+    color: #0e0d0d;
+    }
+    
+    
+    .buttons{
+        display: flex;
+        flex-direction: row;
+         gap: 1rem;
+     }
+     .btn{
+        padding:  10px 20px;
+        font-size: 20px; 
+        font-weight: bold;
+        border-radius: 50px; 
+        cursor: pointer;
+        border: solid rgb(8, 8, 8);
+        transition: all .2s ease-in-out;
+     }
+    
+    .btn:hover{
+        transform: scale(1.1);
+    }
+    #startBtn{
+        background-color: #000000;
+        color: rgb(253, 253, 253);
+    }
+    
+    
+    #pauseBtn,#resumeBtn{
+        display: none;
+    }
+    
+        
+    
+    .timer{
+      display: flex;
+      font-size:  45px;
+      font-weight: bold;
+      color: rgb(60, 255, 0);
+    
+    }
+    
+    .timer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: right 10px;
+        color: rgb(60, 255, 0);
+    }
+    .separator{
+       padding: 0 10px;
+       color: rgb(0, 0, 0);
+    
+    }
+    #milliseconds{
+       font-size:  28px;
+       color: rgb(60, 255, 0);
+    
+
+    }
